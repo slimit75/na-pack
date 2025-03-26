@@ -1,0 +1,8 @@
+{
+	"general": {
+		"name": "Advance Turn Arrow Auxiliary (Blue)",
+		"type": "sign",
+		"modelName": "sign",
+		"materials": ["minecraft:ingot_iron:0:1"]
+	}
+}

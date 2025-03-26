@@ -1,0 +1,22 @@
+modLoader = "javafml"
+loaderVersion = "[36,)"
+license = "All Rights Reserved"
+issueTrackerURL = "https://github.com/slimit75/na-pack/issues"
+showAsResourcePack = false
+
+[[mods]]
+modId = "naroads"
+version = "1.0.0-alpha.1"
+displayName = "CountriesNJ Parts Pack"
+displayURL = "https://github.com/slimit75/na-pack"
+authors = "slimit75"
+description = '''
+A parts pack for Immersive Vehicles.
+'''
+
+[[dependencies.naroads]]
+modId = "mts"
+mandatory = true
+versionRange = "[22.17.0,)"
+ordering = "NONE"
+side = "BOTH"

@@ -1,0 +1,46 @@
+{
+	"general": {
+		"name": "Overhead (Green, N, State Route (NC), Left Half)",
+		"type": "sign",
+		"modelName": "sign",
+		"materials": ["minecraft:ingot_iron:0:1"],
+		"textObjects": [
+			{
+				"fieldName": "Direction",
+				"fontName": "naroads:fhwa_series_e",
+				"pos": [0.5, 0.85, 0.001],
+				"rot": [0.0, 0.0, 0.0],
+				"scale": 0.3795,
+				"maxLength": 5,
+				"color": "0xFFFFFF"
+			},
+			{
+				"fieldName": "Route Number",
+				"fontName": "naroads:fhwa_series_c",
+				"pos": [0.5, 0.5, 0.001],
+				"rot": [0.0, 0.0, 0.0],
+				"scale": 0.66,
+				"maxLength": 2,
+				"color": "0x000000"
+			},
+			{
+				"fieldName": "Route Number (D)",
+				"fontName": "naroads:fhwa_series_d",
+				"pos": [0.5, 0.5, 0.001],
+				"rot": [0.0, 0.0, 0.0],
+				"scale": 0.66,
+				"maxLength": 2,
+				"color": "0x000000"
+			},
+			{
+				"fieldName": "Route Number (3)",
+				"fontName": "naroads:fhwa_series_c",
+				"pos": [0.5, 0.475, 0.001],
+				"rot": [0.0, 0.0, 0.0],
+				"scale": 0.5412,
+				"maxLength": 3,
+				"color": "0x000000"
+			}
+		]
+	}
+}

@@ -1,0 +1,12 @@
+[
+	{
+		"modid": "naroads",
+		"name": "CountriesNJ Parts Pack",
+		"description": "A parts pack for Immersive Vehicles.",
+		"logoFile": "logo.png",
+		"version": "1.0.0-alpha.1",
+		"mcversion": "1.12.2",
+		"url": "https://github.com/slimit75/na-pack",
+		"authorList": ["slimit75"]
+	}
+]

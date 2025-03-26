@@ -1,0 +1,8 @@
+{
+	"general": {
+		"name": "No Bicycles",
+		"type": "sign",
+		"modelName": "sign",
+		"materials": ["minecraft:ingot_iron:0:1"]
+	}
+}

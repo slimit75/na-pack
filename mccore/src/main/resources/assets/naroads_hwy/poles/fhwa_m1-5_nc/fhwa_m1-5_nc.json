@@ -1,0 +1,37 @@
+{
+	"general": {
+		"name": "State Route (North Carolina)",
+		"type": "sign",
+		"modelName": "sign",
+		"materials": ["minecraft:ingot_iron:0:1"],
+		"textObjects": [
+			{
+				"fieldName": "Route Number",
+				"fontName": "naroads:fhwa_series_c",
+				"pos": [0, 0.715, 0.001],
+				"rot": [0.0, 0.0, 0.0],
+				"scale": 0.924,
+				"maxLength": 2,
+				"color": "0x000000"
+			},
+			{
+				"fieldName": "Route Number (D)",
+				"fontName": "naroads:fhwa_series_d",
+				"pos": [0, 0.715, 0.001],
+				"rot": [0.0, 0.0, 0.0],
+				"scale": 0.924,
+				"maxLength": 2,
+				"color": "0x000000"
+			},
+			{
+				"fieldName": "Route Number (3)",
+				"fontName": "naroads:fhwa_series_c",
+				"pos": [0, 0.675, 0.001],
+				"rot": [0.0, 0.0, 0.0],
+				"scale": 0.759,
+				"maxLength": 3,
+				"color": "0x000000"
+			}
+		]
+	}
+}

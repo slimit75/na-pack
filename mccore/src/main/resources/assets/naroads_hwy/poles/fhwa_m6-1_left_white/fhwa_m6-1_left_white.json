@@ -1,0 +1,8 @@
+{
+	"general": {
+		"name": "Directional Arrow Auxiliary (White)",
+		"type": "sign",
+		"modelName": "sign",
+		"materials": ["minecraft:ingot_iron:0:1"]
+	}
+}

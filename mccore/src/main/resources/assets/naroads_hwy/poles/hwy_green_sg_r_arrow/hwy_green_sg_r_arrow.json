@@ -1,0 +1,8 @@
+{
+	"general": {
+		"name": "Single-Slot Overhead Sign (Green, Right, Arrow)",
+		"type": "sign",
+		"modelName": "sign",
+		"materials": ["minecraft:ingot_iron:0:1"]
+	}
+}

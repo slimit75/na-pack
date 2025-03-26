@@ -1,0 +1,19 @@
+{
+	"general": {
+		"name": "Single-Slot Overhead Sign (Green, C)",
+		"type": "sign",
+		"modelName": "sign",
+		"materials": ["minecraft:ingot_iron:0:1"],
+		"textObjects": [
+			{
+				"fieldName": "Line 1",
+				"fontName": "naroads:fhwa_series_em",
+				"pos": [0.5, 0.7, 0.001],
+				"rot": [0.0, 0.0, 0.0],
+				"scale": 0.726,
+				"maxLength": 20,
+				"color": "0xFFFFFF"
+			}
+		]
+	}
+}

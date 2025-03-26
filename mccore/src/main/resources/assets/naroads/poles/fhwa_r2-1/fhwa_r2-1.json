@@ -1,0 +1,19 @@
+{
+	"general": {
+		"name": "Speed Limit",
+		"type": "sign",
+		"modelName": "sign",
+		"materials": ["minecraft:ingot_iron:0:1"],
+		"textObjects": [
+			{
+				"fieldName": "Speed Limit (mph)",
+				"fontName": "naroads:fhwa_series_e",
+				"pos": [0, 0.5, 0.001],
+				"rot": [0.0, 0.0, 0.0],
+				"scale": 0.825,
+				"maxLength": 2,
+				"color": "0x000000"
+			}
+		]
+	}
+}

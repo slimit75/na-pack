@@ -1,0 +1,35 @@
+//Apply plugins
+apply plugin: "java"
+apply plugin: "eclipse"
+
+//Set file name.
+version = "core"
+group = "na-pack"
+archivesBaseName = "na-pack"
+
+//Options for Java version to compile to.
+sourceCompatibility = targetCompatibility = "1.8"
+compileJava {
+    options.compilerArgs << "-Xlint:deprecation" << "-Xlint:unchecked"
+}
+
+repositories {
+    mavenCentral()
+}
+
+//Configuration that holds jars to include in the jar
+configurations {
+    embed
+    compileOnly.extendsFrom(embed)
+}
+
+//Here is where we zip up all embeds and add them to our jar.
+jar {
+    from {
+        configurations.embed.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = "UTF-8" // Use the UTF-8 charset for Java compilation
+}

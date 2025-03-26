@@ -1,0 +1,19 @@
+{
+	"general": {
+		"name": "Interstate Route (2 digit)",
+		"type": "sign",
+		"modelName": "sign",
+		"materials": ["minecraft:ingot_iron:0:1"],
+		"textObjects": [
+			{
+				"fieldName": "Route Number",
+				"fontName": "naroads:fhwa_series_d",
+				"pos": [0, 0.715, 0.001],
+				"rot": [0.0, 0.0, 0.0],
+				"scale": 0.99,
+				"maxLength": 2,
+				"color": "0xFFFFFF"
+			}
+		]
+	}
+}

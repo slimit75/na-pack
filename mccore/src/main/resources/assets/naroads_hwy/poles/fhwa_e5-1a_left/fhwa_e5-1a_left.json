@@ -1,0 +1,19 @@
+{
+	"general": {
+		"name": "Exit Gore - Number (Left)",
+		"type": "sign",
+		"modelName": "sign",
+		"materials": ["minecraft:ingot_iron:0:1"],
+		"textObjects": [
+			{
+				"fieldName": "Exit Number",
+				"fontName": "naroads:fhwa_series_e",
+				"pos": [0.175, 0.475, 0.001],
+				"rot": [0.0, 0.0, 0.0],
+				"scale": 0.594,
+				"maxLength": 2,
+				"color": "0xFFFFFF"
+			}
+		]
+	}
+}

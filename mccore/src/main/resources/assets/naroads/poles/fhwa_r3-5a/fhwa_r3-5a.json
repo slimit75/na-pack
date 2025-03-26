@@ -1,0 +1,8 @@
+{
+	"general": {
+		"name": "Mandatory Movement Lane Control (Straight)",
+		"type": "sign",
+		"modelName": "sign",
+		"materials": ["minecraft:ingot_iron:0:1"]
+	}
+}

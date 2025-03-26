@@ -1,0 +1,8 @@
+{
+	"general": {
+		"name": "Overhead Sign (Green, SW)",
+		"type": "sign",
+		"modelName": "sign",
+		"materials": ["minecraft:ingot_iron:0:1"]
+	}
+}

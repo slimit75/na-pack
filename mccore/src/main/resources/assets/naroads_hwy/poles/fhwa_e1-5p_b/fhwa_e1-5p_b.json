@@ -1,0 +1,19 @@
+{
+	"general": {
+		"name": "Exit Number (Plaque) (2/2)",
+		"type": "sign",
+		"modelName": "sign",
+		"materials": ["minecraft:ingot_iron:0:1"],
+		"textObjects": [
+			{
+				"fieldName": "Exit Number",
+				"fontName": "naroads:fhwa_series_e",
+				"pos": [0.0, 0.325, 0.001],
+				"rot": [0.0, 0.0, 0.0],
+				"scale": 0.495,
+				"maxLength": 2,
+				"color": "0xFFFFFF"
+			}
+		]
+	}
+}

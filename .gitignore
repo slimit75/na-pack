@@ -1,0 +1,14 @@
+# IDE Stuff
+.idea/*
+*.code-workspace
+*.iml
+
+# Build Stuff
+.gradle/*
+build/*
+*/build/*
+out/*
+
+# Other Stuff
+*.svg
+svg/*
