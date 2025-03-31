@@ -1,6 +1,6 @@
 {
 	"general": {
-		"name": "Exit Number (1, 2 digits) (plaque) (1/2)",
+		"name": "Cardinal Direction - South (plaque) (Blue)",
 		"type": "sign",
 		"modelName": "sign",
 		"materials": ["minecraft:ingot_iron:0:1"]
