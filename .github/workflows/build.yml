@@ -23,4 +23,4 @@ jobs:
 
       - uses: actions/upload-artifact@v4.6.1
         with:
-          path: ./mc*/build/libs/na-pack-*-*.jar
+          path: ./mc*/build/libs/napack-*-*.jar

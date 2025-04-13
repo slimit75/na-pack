@@ -5,7 +5,7 @@ apply plugin: "eclipse"
 //Set file name.
 version = "core"
 group = "na-pack"
-archivesBaseName = "na-pack"
+archivesBaseName = "napack"
 
 //Options for Java version to compile to.
 sourceCompatibility = targetCompatibility = "1.8"
