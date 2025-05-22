@@ -6,7 +6,7 @@ showAsResourcePack = false
 
 [[mods]]
 modId = "naroads"
-version = "1.0.0-alpha.1"
+version = "1.0.0-alpha.2"
 displayName = "NAPack"
 displayURL = "https://github.com/slimit75/na-pack"
 authors = "slimit75"
