@@ -1,0 +1,8 @@
+{
+	"general": {
+		"name": "Divided Highway Ends",
+		"type": "sign",
+		"modelName": "sign",
+		"materials": ["minecraft:ingot_iron:0:1"]
+	}
+}

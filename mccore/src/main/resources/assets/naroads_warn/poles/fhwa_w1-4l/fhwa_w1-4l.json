@@ -1,0 +1,8 @@
+{
+	"general": {
+		"name": "Horizontal Alignment - Reverse Curve (Left)",
+		"type": "sign",
+		"modelName": "sign",
+		"materials": ["minecraft:ingot_iron:0:1"]
+	}
+}

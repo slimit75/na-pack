@@ -1,0 +1,8 @@
+{
+	"general": {
+		"name": "Stop Ahead",
+		"type": "sign",
+		"modelName": "sign",
+		"materials": ["minecraft:ingot_iron:0:1"]
+	}
+}
