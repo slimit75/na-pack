@@ -6,8 +6,38 @@ showAsResourcePack = false
 
 [[mods]]
 modId = "naroads"
-version = "1.0.0-alpha.2"
+version = "1.0.0-alpha.3"
 displayName = "NAPack"
+displayURL = "https://github.com/slimit75/na-pack"
+authors = "slimit75"
+description = '''
+A parts pack for Immersive Vehicles.
+'''
+
+[[mods]]
+modId = "naroads_hwy"
+version = "1.0.0-alpha.3"
+displayName = "NAPack - Highways"
+displayURL = "https://github.com/slimit75/na-pack"
+authors = "slimit75"
+description = '''
+A parts pack for Immersive Vehicles.
+'''
+
+[[mods]]
+modId = "naroads_services"
+version = "1.0.0-alpha.3"
+displayName = "NAPack - Services"
+displayURL = "https://github.com/slimit75/na-pack"
+authors = "slimit75"
+description = '''
+A parts pack for Immersive Vehicles.
+'''
+
+[[mods]]
+modId = "naroads_warn"
+version = "1.0.0-alpha.3"
+displayName = "NAPack - Warnings"
 displayURL = "https://github.com/slimit75/na-pack"
 authors = "slimit75"
 description = '''
