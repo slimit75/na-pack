@@ -1,6 +1,5 @@
 {
 	"packID": "naroads",
 	"packName": "NAPack - Regulatory",
-	"packItem": "fhwa_r1-1",
-	"fileStructure": 2
+	"packItem": "fhwa_r1-1"
 }
