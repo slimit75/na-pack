@@ -1,0 +1,52 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+license = "All Rights Reserved"
+issueTrackerURL = "https://github.com/slimit75/na-pack/issues"
+showAsResourcePack = false
+
+[[mods]]
+modId = "naroads"
+version = "1.0.0-alpha.4"
+displayName = "NAPack"
+displayURL = "https://github.com/slimit75/na-pack"
+authors = "slimit75"
+description = '''
+A parts pack for Immersive Vehicles.
+'''
+
+[[mods]]
+modId = "naroads_hwy"
+version = "1.0.0-alpha.4"
+displayName = "NAPack - Highways"
+displayURL = "https://github.com/slimit75/na-pack"
+authors = "slimit75"
+description = '''
+A parts pack for Immersive Vehicles.
+'''
+
+[[mods]]
+modId = "naroads_services"
+version = "1.0.0-alpha.4"
+displayName = "NAPack - Services"
+displayURL = "https://github.com/slimit75/na-pack"
+authors = "slimit75"
+description = '''
+A parts pack for Immersive Vehicles.
+'''
+
+[[mods]]
+modId = "naroads_warn"
+version = "1.0.0-alpha.4"
+displayName = "NAPack - Warnings"
+displayURL = "https://github.com/slimit75/na-pack"
+authors = "slimit75"
+description = '''
+A parts pack for Immersive Vehicles.
+'''
+
+[[dependencies.naroads]]
+modId = "mts"
+mandatory = true
+versionRange = "[22.17.0,)"
+ordering = "NONE"
+side = "BOTH"

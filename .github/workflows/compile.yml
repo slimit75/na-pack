@@ -1,19 +1,21 @@
-name: Build mod
+name: Compile
 
 on:
   push:
-    branches: [ "*" ]
+    tags:
+      - 'v*'
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4.2.2
+      - uses: actions/checkout@v6.0.2
         with:
           submodules: 'recursive'
 
-      - uses: actions/setup-java@v4.7.0
+      - uses: actions/setup-java@v5.2.0
         with:
           distribution: 'temurin' # See 'Supported distributions' for available options
           java-version: '8'
@@ -21,6 +23,6 @@ jobs:
       - name: Build mod
         run: chmod 777 ./gradlew && ./gradlew build
 
-      - uses: actions/upload-artifact@v4.6.1
+      - uses: actions/upload-artifact@v7.0.1
         with:
           path: ./mc*/build/libs/napack-*-*.jar
