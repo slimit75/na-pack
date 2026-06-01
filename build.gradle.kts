@@ -18,19 +18,19 @@ subprojects {
 var modVersion: String = project.property("global_version").toString()
 
 var mcCore = project(":mccore")
-var mcOld = project(":mcold")
-var mcNew = project(":mcnew")
+var mcinterfaceforge1122 = project(":mcinterfaceforge1122")
+var mcinterfaceforge1165 = project(":mcinterfaceforge1165")
 
 tasks.register("buildCore") {
 	dependsOn(mcCore.tasks.build)
 }
 
 tasks.register("buildForge1122") {
-	dependsOn(mcOld.tasks.build)
+	dependsOn(mcinterfaceforge1122.tasks.build)
 }
 
 tasks.register("buildForge1165") {
-	dependsOn(mcNew.tasks.build)
+	dependsOn(mcinterfaceforge1165.tasks.build)
 }
 
 tasks.register("buildForgeAll") {

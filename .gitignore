@@ -1,8 +1,3 @@
-# IDE Stuff
-.idea/*
-*.code-workspace
-*.iml
-
 # Build Stuff
 .gradle/*
 build/*
