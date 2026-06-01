@@ -1,6 +1,5 @@
 {
 	"packID": "naroads_services",
 	"packName": "NAPack - General Services",
-	"packItem": "fhwa_d5-2a",
-	"fileStructure": 2
+	"packItem": "fhwa_d5-2a"
 }

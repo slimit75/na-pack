@@ -1,6 +1,5 @@
 {
 	"packID": "naroads_hwy",
 	"packName": "NAPack - Highways",
-	"packItem": "fhwa_e5-1a",
-	"fileStructure": 2
+	"packItem": "fhwa_e5-1a"
 }

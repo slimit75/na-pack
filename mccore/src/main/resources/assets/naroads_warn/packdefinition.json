@@ -1,6 +1,5 @@
 {
 	"packID": "naroads_warn",
 	"packName": "NAPack - Warnings",
-	"packItem": "fhwa_w3-1",
-	"fileStructure": 2
+	"packItem": "fhwa_w3-1"
 }
