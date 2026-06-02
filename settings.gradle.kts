@@ -7,6 +7,9 @@ pluginManagement {
 		}
 	}
 }
+plugins {
+	id("org.gradle.toolchains.foojay-resolver-convention") version "0.10.0"
+}
 
 rootProject.name = "na-pack"
 include("mccore", "mcinterfaceforge1122", "mcinterfaceforge1165", "mcinterfaceforge1201")
