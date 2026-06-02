@@ -1,14 +1,16 @@
-//Apply plugins
-apply plugin: "java"
-apply plugin: "eclipse"
+plugins {
+    id "java"
+    id "eclipse"
+}
 
-//Set file name.
+// Set file name.
 version = "core"
 group = "na-pack"
 archivesBaseName = "napack"
 
-//Options for Java version to compile to.
-sourceCompatibility = targetCompatibility = "1.8"
+// Options for Java version to compile to.
+java.toolchain.languageVersion = JavaLanguageVersion.of(8)
+
 compileJava {
     options.compilerArgs << "-Xlint:deprecation" << "-Xlint:unchecked"
 }
@@ -31,5 +33,5 @@ jar {
 }
 
 tasks.withType(JavaCompile).configureEach {
-    options.encoding = "UTF-8" // Use the UTF-8 charset for Java compilation
+    options.encoding = 'UTF-8' // Use the UTF-8 charset for Java compilation
 }
