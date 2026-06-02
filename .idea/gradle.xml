@@ -5,12 +5,11 @@
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleJvm" value="temurin-11" />
+        <option name="gradleJvm" value="temurin-17" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/mccore" />
-            <option value="$PROJECT_DIR$/mcinterfaceforge1122" />
             <option value="$PROJECT_DIR$/mcinterfaceforge1165" />
             <option value="$PROJECT_DIR$/mcinterfaceforge1201" />
           </set>
