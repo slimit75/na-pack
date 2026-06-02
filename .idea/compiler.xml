@@ -6,7 +6,6 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="na-pack.mccore.main" options="-Xlint:deprecation -Xlint:unchecked" />
-      <module name="na-pack.mcinterfaceforge1122.main" options="-Xlint:deprecation -Xlint:unchecked" />
       <module name="na-pack.mcinterfaceforge1165.main" options="-Xlint:deprecation -Xlint:unchecked" />
       <module name="na-pack.mcinterfaceforge1201.main" options="-Xlint:deprecation -Xlint:unchecked" />
     </option>
