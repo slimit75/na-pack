@@ -1,0 +1,6 @@
+{
+  "parent": "mts:item/basic",
+  "textures": {
+    "layer0": "naroads:item/poles/os_invis_pole"
+  }
+}
