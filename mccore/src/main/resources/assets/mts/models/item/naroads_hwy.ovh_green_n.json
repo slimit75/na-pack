@@ -1,0 +1,6 @@
+{
+  "parent": "mts:item/basic",
+  "textures": {
+    "layer0": "naroads_hwy:item/poles/ovh_green_n"
+  }
+}

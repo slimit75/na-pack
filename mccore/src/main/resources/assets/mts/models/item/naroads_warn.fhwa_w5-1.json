@@ -1,0 +1,6 @@
+{
+  "parent": "mts:item/basic",
+  "textures": {
+    "layer0": "naroads_warn:item/poles/fhwa_w5-1"
+  }
+}
