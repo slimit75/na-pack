@@ -1,8 +1,21 @@
 # NAPack
-NAPack is a content pack for the [Immersive Vehicles](https://github.com/DonBruce64/MinecraftTransportSimulator) Minecraft mod. It's primary goal is to provide road signs that are as accurate to their North American counterparts as possible. As there are obviously many countries in North America, this pack currently only focuses on US road signs as published in the FHWA's [Manual on Uniform Traffic Control Devices](https://mutcd.fhwa.dot.gov/kno_11th_Edition.htm) and [Standard Highway Signs](https://mutcd.fhwa.dot.gov/kno-shs_2024.htm) publications — other countries may be considered in the future.
+NAPack is a content pack for the [Immersive Vehicles](https://github.com/DonBruce64/MinecraftTransportSimulator) Minecraft mod. This pack provides road signs based on those 
+from the FHWA and their *[Manual on Uniform Traffic Control Devices](https://mutcd.fhwa.dot.gov/kno_11th_Edition.htm)*.
 
-### Other Resources Used
-* The build system is pretty much identical to that used by Immersive Vehicles
-* The [Roadgeek](https://github.com/sammdot/roadgeek-fonts) fonts were used, their license is available to read [here](https://github.com/sammdot/roadgeek-fonts/blob/master/LICENSE).
-* [Minecraft Unicode Font Generator](https://github.com/codehz/minecraft-unicode-font-generator) was used to convert the Roadgeek fonts into something usable for Minecraft.
-* Starting with the 11th Edition of the MUTCD (and the 2024 Edition of the SHS), the FHWA has started providing vector files of specific signs. Where possible, these vector files were used directly, although slightly modified and exported in a format usable by this pack. The warning signs were the first to use these.
+While the FHWA is a part of the United States government, pull requests for content from Canada, Mexico, or any of the 
+other Central American & Carribian countries will be accepted.
+
+**Due to how busy I am, this project is a low priority of mine. I will do my best to maintain this project and add new
+signs as appropriate, but it may take some time.** I meant to first publish this pack publicly in Spring 2025, which was
+over a year ago now.
+
+## History
+This pack started as a fork of a different pack that I created for use on a friend's private Minecraft server. While
+this fork should have references to that server completely removed, there is a *very* small chance that this pack may
+still include those references. Only *real* road signs used in North America are intended to be included in this pack.
+
+## Attribution & Tools Used
+* The build system this pack uses is derived from the [Immersive Vehicles](https://github.com/DonBruce64/MinecraftTransportSimulator) repository.
+* This project uses the [Roadgeek](https://github.com/sammdot/roadgeek-fonts) font family. Their license can be read [here](https://github.com/sammdot/roadgeek-fonts/blob/master/LICENSE).
+  * [Minecraft Unicode Font Generator](https://github.com/codehz/minecraft-unicode-font-generator) was used to convert the Roadgeek fonts into something usable for Minecraft.
+* Some signs may have directly used vector files sourced from the FHWA as published starting in the 11th Edition of the MUTCD and the 2024 Edition of the *Standard Highway Signs* publication.
