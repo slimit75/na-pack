@@ -1,0 +1,47 @@
+plugins {
+    id "net.neoforged.moddev" version "2.0.+"
+}
+
+// Set file name.
+version = "${project.mc_version}-${project.mod_version}"
+group = project.mod_group
+base.archivesName = project.archive_name
+
+// Options for Java version to compile to.
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+neoForge {
+    version = project.neoforge_version
+    parchment {
+        mappingsVersion = project.mappings_version
+        minecraftVersion = project.mc_version
+    }
+}
+
+// Configuration that holds jars to include in the jar
+configurations {
+    embed
+    // Use compileOnly so mccore classes are available at compile time but do NOT
+    // appear on the runtime module path. The jar task below unpacks embed into the
+    // fat JAR, so the classes are present at runtime inside the mod JAR itself.
+    // Using implementation here would place mccore (and its jorbis/jlayer classes)
+    // on the module path as a separate module, causing JPMS split-package errors.
+    compileOnly.extendsFrom(embed)
+}
+
+// Specify dependencies.
+dependencies {
+    // Core to use.
+    embed(project(":mccore"))
+}
+
+//Here is where we zip up all embeds and add them to our jar.
+jar {
+    from {
+        configurations.embed.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = "UTF-8"
+    options.compilerArgs << "-Xlint:deprecation" << "-Xlint:unchecked"
+}

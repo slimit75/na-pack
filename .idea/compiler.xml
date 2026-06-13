@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <bytecodeTargetLevel target="1.8" />
+    <bytecodeTargetLevel target="1.8">
+      <module name="na-pack.mcinterfaceforge1122" target="17" />
+      <module name="na-pack.mcinterfaceforge1122.main" target="17" />
+      <module name="na-pack.mcinterfaceforge1122.test" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="na-pack.mccore.main" options="-Xlint:deprecation -Xlint:unchecked" />
+      <module name="na-pack.mcinterfaceneoforge1211" options="-Xlint:deprecation -Xlint:unchecked" />
+      <module name="na-pack.mcinterfaceneoforge1211.main" options="-Xlint:deprecation -Xlint:unchecked" />
+      <module name="na-pack.mcinterfaceneoforge1211.test" options="-Xlint:deprecation -Xlint:unchecked" />
     </option>
   </component>
 </project>

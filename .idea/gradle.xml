@@ -10,9 +10,9 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/mccore" />
-            <option value="$PROJECT_DIR$/mcinterfaceforge1122" />
             <option value="$PROJECT_DIR$/mcinterfaceforge1165" />
             <option value="$PROJECT_DIR$/mcinterfaceforge1201" />
+            <option value="$PROJECT_DIR$/mcinterfaceneoforge1211" />
           </set>
         </option>
       </GradleProjectSettings>
