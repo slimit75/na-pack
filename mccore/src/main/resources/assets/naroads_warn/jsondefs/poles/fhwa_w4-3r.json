@@ -1,8 +1,30 @@
 {
 	"general": {
 		"name": "Added Lane (Right)",
-		"type": "sign",
-		"modelName": "sign",
-		"materials": ["minecraft:ingot_iron:0:1"]
+		"stackSize": 32,
+		"description": "",
+		"materialLists": [
+			[
+				"mts:mtsofficialpack.plating:1"
+			]
+		],
+		"radarWidth": 0.0,
+		"radarRange": 0.0
+	},
+	"pole": {
+		"type": "sign"
+	},
+	"definitions": [
+		{
+			"subName": "",
+			"modelName": "sign-1.886",
+			"extraMaterialLists": [
+				[]
+			]
+		}
+	],
+	"rendering": {
+		"lightObjects": [],
+		"modelType": "obj"
 	}
 }
