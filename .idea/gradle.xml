@@ -15,6 +15,7 @@
             <option value="$PROJECT_DIR$/mcinterfaceneoforge1211" />
           </set>
         </option>
+        <option name="resolveExternalAnnotations" value="true" />
       </GradleProjectSettings>
     </option>
   </component>
